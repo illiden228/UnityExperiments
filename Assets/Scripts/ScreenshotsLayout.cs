@@ -13,6 +13,8 @@ public class ScreenshotsLayout : MonoBehaviour
     [SerializeField] private Sprite _ImageThree;
     [SerializeField] private Sprite _ImageFour;
 
+    [SerializeField] private Transform _dragingParent;
+
     private void Awake()
     {
         Render(new List<Screenshot>() {
@@ -29,6 +31,7 @@ public class ScreenshotsLayout : MonoBehaviour
         foreach(Screenshot screenshot in screenshots)
         {
             var view = Instantiate(_template, _container) as ScreenshotView;
+            view.Init(_dragingParent);
             view.Render(screenshot);
         }
     }
