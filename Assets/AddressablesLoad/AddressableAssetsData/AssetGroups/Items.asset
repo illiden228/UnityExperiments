@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Items
+  m_EditorClassIdentifier: 
+  m_GroupName: Items
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 371d879c7123e5e4a8a1301cedc0e732
+  m_SerializeEntries:
+  - m_GUID: 2a87cba6a6aaf414598550fbe0de8845
+    m_Address: Assets/Money1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: 2a87cba6a6aaf414598550fbe0de8845, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 2a87cba6a6aaf414598550fbe0de8845, type: 3}
+  - m_GUID: e32807ff3589f1942b8174e25e951204
+    m_Address: Assets/Money2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: e32807ff3589f1942b8174e25e951204, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: e32807ff3589f1942b8174e25e951204, type: 3}
+  - m_GUID: de33d3bfb6fff774e83ab211e89aa55b
+    m_Address: Assets/Butter.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c387ce714cb7a194a847393143ee5835, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ff5ab6d162c0706469dac32e428aa5dc, type: 2}
+    - {fileID: 11400000, guid: 20e6d689abd351d4d8f945c26490fb7e, type: 2}
